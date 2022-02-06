@@ -4,5 +4,26 @@
     "express": "^4.17.2",
     "mysql2": "^2.3.3",
     "sequelize": "^6.15.0"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "name": "e-commerce-back-end",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlimbu07/e-commerce-back-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nlimbu07/e-commerce-back-end/issues"
+  },
+  "homepage": "https://github.com/nlimbu07/e-commerce-back-end#readme"
 }
